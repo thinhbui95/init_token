@@ -1,0 +1,21 @@
+[package]
+name = "lp_token"
+version = "0.4.4"
+
+
+[addresses]
+liquidswap = "0xf44a3a70e606b7205ae6b19a52981cdca71e8627be3140e7b340f79b497f73dd"
+
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dependencies.UQ64x64]
+git = "https://github.com/pontem-network/UQ64x64.git"
+rev = "v0.3.8"
+
+[dependencies.U256]
+git = "https://github.com/pontem-network/U256.git"
+rev = "v0.3.9"
